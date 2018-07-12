@@ -1,4 +1,4 @@
-package org.core.spring.Chatper3;
+package org.core.spring.chapter3;
 
 import org.dom4j.Document;
 import org.dom4j.Element;

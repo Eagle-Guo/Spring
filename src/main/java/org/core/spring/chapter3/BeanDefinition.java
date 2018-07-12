@@ -1,4 +1,4 @@
-package org.core.spring.Chatper3;
+package org.core.spring.chapter3;
 
 public class BeanDefinition {
     private String id;

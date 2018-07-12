@@ -5,4 +5,9 @@
            http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
     <bean id="personService" class="org.core.spring.impl.PersonServiceImpl"></bean>
+
+    <bean id="personService2" class="org.core.spring.chapter4.StaticFactory" factory-method="getPersonService"></bean>
+
+    <bean id="factoryMethod" class="org.core.spring.chapter4.FactoryMethod"></bean>
+    <bean id="personService3" factory-bean="factoryMethod" factory-method="createPersonService"></bean>
 </beans>

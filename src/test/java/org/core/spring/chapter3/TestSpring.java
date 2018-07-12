@@ -1,9 +1,8 @@
-package org.core.spring;
+package org.core.spring.chapter3;
 
-import org.core.spring.Chatper3.CustomizeApplicationContextLoad;
+import org.core.spring.PersonService;
+import org.core.spring.chapter3.CustomizeApplicationContextLoad;
 import org.junit.jupiter.api.Test;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestSpring {
 
