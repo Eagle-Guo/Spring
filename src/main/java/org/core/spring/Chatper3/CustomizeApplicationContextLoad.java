@@ -46,7 +46,8 @@ public class CustomizeApplicationContextLoad {
         try {
             for (BeanDefinition beanDefinition : beanDefinitions) {
                 Object clazz = Class.forName(beanDefinition.getClazz()).newInstance();
-                beans.put(beanDefinition.getClazz(), clazz);
+                //Object clazz = Class.forName("org.core.spring.impl.PersonServiceImpl").newInstance();
+                beans.put(beanDefinition.getId(), clazz);
             }
         } catch (Exception ex) {
             ex.printStackTrace();
