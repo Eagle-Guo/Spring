@@ -10,4 +10,9 @@
 
     <bean id="factoryMethod" class="org.core.spring.chapter4.FactoryMethod"></bean>
     <bean id="personService3" factory-bean="factoryMethod" factory-method="createPersonService"></bean>
+
+    <bean id="personService5" class="org.core.spring.impl.PersonServiceImpl"></bean>
+    <bean id="personService51" class="org.core.spring.impl.PersonServiceImpl" scope="prototype"></bean>
+
+
 </beans>
